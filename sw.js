@@ -1,5 +1,5 @@
 // Simple offline cache for Eggbound PWA
-const CACHE = "eggbound-cache-v4";
+const CACHE = "eggbound-cache-v5";
 const ASSETS = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./sw.js"];
 self.addEventListener("install", (e)=>{
   e.waitUntil((async ()=>{
